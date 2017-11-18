@@ -1,0 +1,273 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	color: #777777;
+	background-color: #eeeeee;
+	max-width: 100%;
+	font-size: 18px;
+	margin-top: 40px;
+	max-height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    padding: 30px 0px 30px 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+    background-color: #4aaaa5;
+
+}
+
+#topNav {
+	margin: auto;
+	width: 1260px;
+    border-bottom: 3px solid #cccccc;
+    background-color: #ffffff;    
+}
+
+#bodyContent {
+	margin: auto;
+	width: 960px;
+	
+}
+
+#mainSec {
+	border: 1px solid #dddddd;
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+	padding-bottom: 20px;
+}
+
+#connectSec {
+	border: 1px solid #dddddd;
+	width: 270px;
+	float: right;
+	background-color: #ffffff;
+	padding-bottom: 30px;
+}
+
+#footer {
+	border-top: 6px solid #4aaaa5;
+	margin: auto;
+	width: 1260px;
+	background-color: #666666;
+}
+
+ul.nav {
+	width: 960px;
+	margin: auto;
+}
+
+li.logo {
+	background-color: #4aaaa5;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+a.logoTxt {
+	color: #ffffff;
+	font-size: 30px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+li.aboutNav {
+	margin: 5px 20px 0px 365px;
+}
+
+li.portNav {
+	margin: 5px 20px 0px 20px;
+}
+
+li.contactNav {
+	margin: 5px 0px 0px 20px;
+}
+
+.greyNav {
+	color: #777777;
+}
+
+li.seperator{
+	margin-top: 5px;
+	color: #777777;
+}
+
+p.about {
+	line-height: 35px;
+	padding: 0px 0px 10px 0px;
+}
+
+p.aboutText {
+	font-size: 14px;
+}
+
+img.kumari { 
+	float: left;
+	margin: 9px 20px 0px 0px;
+}
+
+img.socialImgs {
+	height: 65px;
+	width: 65px;
+}
+
+.bodyBkgrnd {
+	background-image: url(../images/bodyBkgrnd.png);
+	width: 1260px;
+	margin: auto;
+	padding: 30px 0px 40px 0px;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.mainContent {
+	float: left;
+	margin: 0px 30px 0px 30px;
+	text-align: left;
+}
+
+.blueLrgHeader {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	border-bottom: 3px solid #dddddd;
+	margin: 15px 30px 15px 30px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.blueSmlHeader {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 2px solid #dddddd;
+	margin: 15px 30px 15px 30px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.copyright {
+	color: #ffffff;
+	padding: 40px 0px 20px 0px;
+	font-size: 10px;
+}
+
+.boxHang {
+	text-align: center;
+	float: left;
+	margin-right: 20px;
+	padding-bottom: 20px;
+	height: 150px;
+	background-image: url(../images/hangman.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+}
+
+.boxRpg {
+	text-align: center;
+	float: right;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	height: 150px;
+	background-image: url(../images/rpg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+}
+
+.blueSolidBar {
+	background-color: #4aaaa5;
+	width: 275px;
+	line-height: 40px;
+	color: #ffffff;
+	margin-top: 120px;
+}
+
+.boxTrivia {
+	text-align: center;
+	float: left;
+	margin-top: 30px;
+	margin-right: 20px;
+	padding-bottom: 20px;
+	height: 150px;
+	background-image: url(../images/trivia.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+}
+
+.boxRutgers {
+	text-align: center;
+	float: right;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	height: 150px;
+	background-image: url(../images/rutgers.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+}
+
+.boxRock {
+	text-align: center;
+	float: left;
+	margin-top: 30px;
+	margin-right: 20px;
+	padding-bottom: 20px;
+	height: 150px;
+	background-image: url(../images/rock.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+label {
+	font-size: 16px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #666666;
+}
